@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B723BB48256ADC0000B8A289 /* SpecieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723BB47256ADC0000B8A289 /* SpecieDetailsViewController.swift */; };
 		B760995423DA8A50007A7206 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2F42377C54D00D8E9D4 /* ViewController.swift */; };
 		B76AA2BC2376BA1100D8E9D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2BB2376BA1100D8E9D4 /* AppDelegate.swift */; };
 		B76AA2BE2376BA1100D8E9D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2BD2376BA1100D8E9D4 /* SceneDelegate.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B723BB47256ADC0000B8A289 /* SpecieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecieDetailsViewController.swift; sourceTree = "<group>"; };
 		B76AA2B82376BA1100D8E9D4 /* Wildify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wildify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76AA2BB2376BA1100D8E9D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B76AA2BD2376BA1100D8E9D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				B76AA2D42376BB3600D8E9D4 /* SubmitReport.swift */,
 				B76AA2E92376E1C100D8E9D4 /* SpeciesLibrary.swift */,
 				B76AA2ED237713AC00D8E9D4 /* Laws.swift */,
+				B723BB47256ADC0000B8A289 /* SpecieDetailsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B723BB48256ADC0000B8A289 /* SpecieDetailsViewController.swift in Sources */,
 				B760995423DA8A50007A7206 /* ViewController.swift in Sources */,
 				B76AA2EA2376E1C100D8E9D4 /* SpeciesLibrary.swift in Sources */,
 				B76AA2D72376BB3600D8E9D4 /* HomeViewController.swift in Sources */,

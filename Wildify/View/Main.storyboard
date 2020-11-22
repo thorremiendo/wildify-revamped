@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7ym-r4-ne4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7ym-r4-ne4">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -73,7 +75,7 @@
                                 <rect key="frame" x="201" y="138" width="164" height="15"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
-                                <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="systemOrangeColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="newheader" translatesAutoresizingMaskIntoConstraints="NO" id="iKI-mR-370">
@@ -81,8 +83,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.99497288465499878" green="0.99590331315994263" blue="0.94296783208847046" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="eQU-cz-9Qh"/>
+                        <color key="backgroundColor" red="0.99497288465499878" green="0.99590331315994263" blue="0.94296783208847046" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Tq5-cT-AnG"/>
                 </viewController>
@@ -98,7 +100,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldO-Rg-l6S">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldO-Rg-l6S">
                                 <rect key="frame" x="53" y="442" width="146" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.23334128577230584" green="0.50902734983862796" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -110,7 +112,7 @@
                                     <action selector="answerPressed:" destination="KnR-rU-RMZ" eventType="touchUpInside" id="6RP-qd-T8H"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxu-QB-3qg">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxu-QB-3qg">
                                 <rect key="frame" x="218" y="442" width="146" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.33875949167098285" blue="0.32242044999102037" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -149,8 +151,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wpF-xR-ELa"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="IYT-Nz-8wy"/>
                     <connections>
@@ -177,8 +179,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </arscnView>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="4Fb-ek-NVe"/>
                     <connections>
@@ -209,7 +211,7 @@
                                 <color key="textColor" red="0.35972434282302856" green="0.50870043039321899" blue="0.22254800796508789" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5he-Qc-lxm">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5he-Qc-lxm">
                                 <rect key="frame" x="162" y="212" width="90" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Send Report "/>
@@ -218,8 +220,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="exF-tn-hq1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="QpY-1H-4Ym"/>
                 </viewController>
@@ -247,6 +249,49 @@
             </objects>
             <point key="canvasLocation" x="1211.5942028985507" y="111.68478260869566"/>
         </scene>
+        <!--Specie Details View Controller-->
+        <scene sceneID="prg-zA-eon">
+            <objects>
+                <viewController id="v42-Ln-BH2" customClass="SpecieDetailsViewController" customModule="Wildify" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ay5-dk-UVL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wYs-Vc-UbS">
+                                <rect key="frame" x="50" y="94" width="314" height="331"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p7b-Km-pox">
+                                <rect key="frame" x="65" y="459" width="284" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="hNL-Pf-VwJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vL9-uG-yJo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wYs-Vc-UbS" firstAttribute="top" secondItem="vL9-uG-yJo" secondAttribute="top" constant="50" id="He4-v8-DNP"/>
+                            <constraint firstItem="vL9-uG-yJo" firstAttribute="trailing" secondItem="wYs-Vc-UbS" secondAttribute="trailing" constant="50" id="TBk-ZI-Tb5"/>
+                            <constraint firstItem="p7b-Km-pox" firstAttribute="centerX" secondItem="wYs-Vc-UbS" secondAttribute="centerX" id="iUk-bG-KJ5"/>
+                            <constraint firstItem="wYs-Vc-UbS" firstAttribute="leading" secondItem="vL9-uG-yJo" secondAttribute="leading" constant="50" id="nBX-dL-1ro"/>
+                            <constraint firstItem="p7b-Km-pox" firstAttribute="leading" secondItem="vL9-uG-yJo" secondAttribute="leading" constant="65" id="sWr-Hj-kJi"/>
+                            <constraint firstItem="vL9-uG-yJo" firstAttribute="bottom" secondItem="p7b-Km-pox" secondAttribute="bottom" constant="224" id="w15-fe-Vje"/>
+                            <constraint firstItem="p7b-Km-pox" firstAttribute="top" secondItem="wYs-Vc-UbS" secondAttribute="bottom" constant="34" id="ymO-sb-dxR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="b1s-tK-1vB"/>
+                    <connections>
+                        <outlet property="specieImage" destination="wYs-Vc-UbS" id="Bxl-u1-6Rh"/>
+                        <outlet property="specieLabel" destination="p7b-Km-pox" id="fQK-RH-23I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mBZ-Md-Lxc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="373.91304347826087" y="-614.67391304347836"/>
+        </scene>
         <!--Species Library-->
         <scene sceneID="hUx-Wm-3en">
             <objects>
@@ -255,21 +300,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lv0-SA-ifr">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99758356810000004" green="0.99269920590000005" blue="0.94306164979999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="specielibrary" translatesAutoresizingMaskIntoConstraints="NO" id="Lif-sw-a60">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QEP-22-lRP">
                                 <rect key="frame" x="0.0" y="44" width="414" height="692"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="7OH-fY-meJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QEP-22-lRP" firstAttribute="top" secondItem="7OH-fY-meJ" secondAttribute="top" id="Cab-ne-Og5"/>
+                            <constraint firstItem="7OH-fY-meJ" firstAttribute="bottom" secondItem="QEP-22-lRP" secondAttribute="bottom" id="Fwd-G5-hPM"/>
+                            <constraint firstItem="QEP-22-lRP" firstAttribute="leading" secondItem="7OH-fY-meJ" secondAttribute="leading" id="hYn-Nw-oHT"/>
+                            <constraint firstItem="7OH-fY-meJ" firstAttribute="trailing" secondItem="QEP-22-lRP" secondAttribute="trailing" id="nKG-AB-5Jc"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="lDb-bU-Pr3"/>
                     <size key="freeformSize" width="414" height="736"/>
+                    <connections>
+                        <outlet property="tableView" destination="QEP-22-lRP" id="I73-tg-3aJ"/>
+                        <segue destination="v42-Ln-BH2" kind="show" identifier="toSpecieDetailsViewController" id="HnL-hH-Q0L"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0OL-C2-thr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -282,8 +332,8 @@
                     <view key="view" contentMode="scaleToFill" id="3yh-Js-AlV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="5vP-84-Kzm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="ecr-rC-X6w"/>
                 </viewController>
@@ -315,7 +365,7 @@
                                 <rect key="frame" x="157" y="508" width="216" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Classification:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Z0-zc-UC1">
@@ -353,13 +403,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="neZ-LY-86o"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="EPO-If-PQr" firstAttribute="top" secondItem="neZ-LY-86o" secondAttribute="top" constant="32" id="L6Z-Rr-2te"/>
                             <constraint firstItem="neZ-LY-86o" firstAttribute="trailing" secondItem="EPO-If-PQr" secondAttribute="trailing" constant="20" id="XKH-4K-Ukm"/>
                             <constraint firstItem="EPO-If-PQr" firstAttribute="leading" secondItem="neZ-LY-86o" secondAttribute="leading" constant="20" id="m6O-pq-C5W"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="neZ-LY-86o"/>
                     </view>
                     <navigationItem key="navigationItem" title="Identify Species" id="CZd-hk-3nQ">
                         <barButtonItem key="rightBarButtonItem" systemItem="camera" id="Lwh-tV-Nxq">
@@ -387,8 +437,22 @@
         <image name="idspecies" width="156.33332824707031" height="154"/>
         <image name="laws" width="336" height="168"/>
         <image name="newheader" width="1242" height="288"/>
-        <image name="specielibrary" width="1080" height="1920"/>
         <image name="speclib" width="156.33332824707031" height="154"/>
         <image name="subreport" width="156.33332824707031" height="154"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
