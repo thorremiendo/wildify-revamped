@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B760995423DA8A50007A7206 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2F42377C54D00D8E9D4 /* ViewController.swift */; };
 		B76AA2BC2376BA1100D8E9D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2BB2376BA1100D8E9D4 /* AppDelegate.swift */; };
 		B76AA2BE2376BA1100D8E9D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2BD2376BA1100D8E9D4 /* SceneDelegate.swift */; };
 		B76AA2C52376BA1200D8E9D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76AA2C42376BA1200D8E9D4 /* Assets.xcassets */; };
 		B76AA2C82376BA1200D8E9D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76AA2C62376BA1200D8E9D4 /* LaunchScreen.storyboard */; };
 		B76AA2D02376BAA500D8E9D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76AA2CF2376BAA500D8E9D4 /* Main.storyboard */; };
 		B76AA2D52376BB3600D8E9D4 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2D12376BB3500D8E9D4 /* TestViewController.swift */; };
-		B76AA2D62376BB3600D8E9D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2D22376BB3500D8E9D4 /* ViewController.swift */; };
 		B76AA2D72376BB3600D8E9D4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2D32376BB3500D8E9D4 /* HomeViewController.swift */; };
 		B76AA2D82376BB3600D8E9D4 /* SubmitReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2D42376BB3600D8E9D4 /* SubmitReport.swift */; };
 		B76AA2DC2376BD2C00D8E9D4 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B76AA2DB2376BD2C00D8E9D4 /* art.scnassets */; };
@@ -31,7 +31,6 @@
 		B76AA2C92376BA1200D8E9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B76AA2CF2376BAA500D8E9D4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B76AA2D12376BB3500D8E9D4 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		B76AA2D22376BB3500D8E9D4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../Desktop/SafariAR/SafariAR/Controllers/ViewController.swift; sourceTree = "<group>"; };
 		B76AA2D32376BB3500D8E9D4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B76AA2D42376BB3600D8E9D4 /* SubmitReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitReport.swift; sourceTree = "<group>"; };
 		B76AA2DB2376BD2C00D8E9D4 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -77,7 +76,6 @@
 				B76AA2BB2376BA1100D8E9D4 /* AppDelegate.swift */,
 				B76AA2BD2376BA1100D8E9D4 /* SceneDelegate.swift */,
 				B76AA2C92376BA1200D8E9D4 /* Info.plist */,
-				B76AA2D22376BB3500D8E9D4 /* ViewController.swift */,
 			);
 			path = Wildify;
 			sourceTree = "<group>";
@@ -141,7 +139,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Thor Remiendo";
 				TargetAttributes = {
 					B76AA2B72376BA1100D8E9D4 = {
@@ -186,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B760995423DA8A50007A7206 /* ViewController.swift in Sources */,
 				B76AA2EA2376E1C100D8E9D4 /* SpeciesLibrary.swift in Sources */,
 				B76AA2D72376BB3600D8E9D4 /* HomeViewController.swift in Sources */,
 				B76AA2BC2376BA1100D8E9D4 /* AppDelegate.swift in Sources */,
@@ -193,7 +192,6 @@
 				B76AA2EE237713AC00D8E9D4 /* Laws.swift in Sources */,
 				B76AA2D52376BB3600D8E9D4 /* TestViewController.swift in Sources */,
 				B76AA2D82376BB3600D8E9D4 /* SubmitReport.swift in Sources */,
-				B76AA2D62376BB3600D8E9D4 /* ViewController.swift in Sources */,
 				B76AA2BE2376BA1100D8E9D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +236,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -298,6 +297,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
