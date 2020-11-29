@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,9 +21,14 @@
 		B76AA2EA2376E1C100D8E9D4 /* SpeciesLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2E92376E1C100D8E9D4 /* SpeciesLibrary.swift */; };
 		B76AA2EE237713AC00D8E9D4 /* Laws.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2ED237713AC00D8E9D4 /* Laws.swift */; };
 		B76AA2F02377B4AD00D8E9D4 /* zoohackathon.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2EF2377B4AD00D8E9D4 /* zoohackathon.mlmodel */; };
+		B7B610C825733B6000CC7E86 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B610C625733B6000CC7E86 /* CustomTableViewCell.swift */; };
+		B7B610C925733B6000CC7E86 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7B610C725733B6000CC7E86 /* CustomTableViewCell.xib */; };
+		C63A006A1ADE529ED1729FC4 /* Pods_Wildify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C58234FBA0DAAFADDD36887 /* Pods_Wildify.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C58234FBA0DAAFADDD36887 /* Pods_Wildify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wildify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A081946F70B40E07D16D6F5E /* Pods-Wildify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wildify.release.xcconfig"; path = "Target Support Files/Pods-Wildify/Pods-Wildify.release.xcconfig"; sourceTree = "<group>"; };
 		B723BB47256ADC0000B8A289 /* SpecieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecieDetailsViewController.swift; sourceTree = "<group>"; };
 		B76AA2B82376BA1100D8E9D4 /* Wildify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wildify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76AA2BB2376BA1100D8E9D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +45,9 @@
 		B76AA2ED237713AC00D8E9D4 /* Laws.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laws.swift; sourceTree = "<group>"; };
 		B76AA2EF2377B4AD00D8E9D4 /* zoohackathon.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = zoohackathon.mlmodel; sourceTree = "<group>"; };
 		B76AA2F42377C54D00D8E9D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7B610C625733B6000CC7E86 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		B7B610C725733B6000CC7E86 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		D1F6661140AD125A7890D899 /* Pods-Wildify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wildify.debug.xcconfig"; path = "Target Support Files/Pods-Wildify/Pods-Wildify.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,17 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63A006A1ADE529ED1729FC4 /* Pods_Wildify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3E5B4C6AEEB903B5F207951 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C58234FBA0DAAFADDD36887 /* Pods_Wildify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B76AA2AF2376BA1100D8E9D4 = {
 			isa = PBXGroup;
 			children = (
 				B76AA2BA2376BA1100D8E9D4 /* Wildify */,
 				B76AA2B92376BA1100D8E9D4 /* Products */,
+				BCBEB5FE3E338CBF1D73FA0B /* Pods */,
+				A3E5B4C6AEEB903B5F207951 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +97,8 @@
 				B76AA2BB2376BA1100D8E9D4 /* AppDelegate.swift */,
 				B76AA2BD2376BA1100D8E9D4 /* SceneDelegate.swift */,
 				B76AA2C92376BA1200D8E9D4 /* Info.plist */,
+				B7B610C625733B6000CC7E86 /* CustomTableViewCell.swift */,
+				B7B610C725733B6000CC7E86 /* CustomTableViewCell.xib */,
 			);
 			path = Wildify;
 			sourceTree = "<group>";
@@ -115,6 +136,15 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		BCBEB5FE3E338CBF1D73FA0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1F6661140AD125A7890D899 /* Pods-Wildify.debug.xcconfig */,
+				A081946F70B40E07D16D6F5E /* Pods-Wildify.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B76AA2CC2376BA1200D8E9D4 /* Build configuration list for PBXNativeTarget "Wildify" */;
 			buildPhases = (
+				029FC5D29F7F80D0C3EB8B99 /* [CP] Check Pods Manifest.lock */,
 				B76AA2B42376BA1100D8E9D4 /* Sources */,
 				B76AA2B52376BA1100D8E9D4 /* Frameworks */,
 				B76AA2B62376BA1100D8E9D4 /* Resources */,
+				9DFAB3D16DFCB8C55CE11F8B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,11 +208,54 @@
 				B76AA2C82376BA1200D8E9D4 /* LaunchScreen.storyboard in Resources */,
 				B76AA2DC2376BD2C00D8E9D4 /* art.scnassets in Resources */,
 				B76AA2C52376BA1200D8E9D4 /* Assets.xcassets in Resources */,
+				B7B610C925733B6000CC7E86 /* CustomTableViewCell.xib in Resources */,
 				B76AA2D02376BAA500D8E9D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		029FC5D29F7F80D0C3EB8B99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wildify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DFAB3D16DFCB8C55CE11F8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wildify/Pods-Wildify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wildify/Pods-Wildify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wildify/Pods-Wildify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B76AA2B42376BA1100D8E9D4 /* Sources */ = {
@@ -189,6 +264,7 @@
 			files = (
 				B723BB48256ADC0000B8A289 /* SpecieDetailsViewController.swift in Sources */,
 				B760995423DA8A50007A7206 /* ViewController.swift in Sources */,
+				B7B610C825733B6000CC7E86 /* CustomTableViewCell.swift in Sources */,
 				B76AA2EA2376E1C100D8E9D4 /* SpeciesLibrary.swift in Sources */,
 				B76AA2D72376BB3600D8E9D4 /* HomeViewController.swift in Sources */,
 				B76AA2BC2376BA1100D8E9D4 /* AppDelegate.swift in Sources */,
@@ -332,6 +408,7 @@
 		};
 		B76AA2CD2376BA1200D8E9D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F6661140AD125A7890D899 /* Pods-Wildify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -351,6 +428,7 @@
 		};
 		B76AA2CE2376BA1200D8E9D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A081946F70B40E07D16D6F5E /* Pods-Wildify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

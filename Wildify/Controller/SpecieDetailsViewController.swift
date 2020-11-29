@@ -14,12 +14,12 @@ class SpecieDetailsViewController: UIViewController {
     @IBOutlet weak var specieLabel: UILabel!
     
     var selectedSpecieName = ""
-    var selectedSpecieImage = UIImage()
+    var selectedSpecieImage = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        specieImage.image = selectedSpecieImage
+        specieImage.image = UIImage(named: selectedSpecieImage)
         specieLabel.text = selectedSpecieName
     }
     
